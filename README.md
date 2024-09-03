@@ -22,7 +22,7 @@ Some variables inside the notebook are used without being initialized before. Th
 
 As you know, the goal is to use LSTMs (Long short-term memory) to perform time-series forcast.
 
-The closer your advance on the raw signal is to the quantity you assigned to `horizon`, the better !
+The closer your lead on the raw signal is to the quantity you assigned to `horizon`, the better !
 
 You might notice that LSTMs, if they are ran on CPU, take a lot of time to train.
 In our example we trained on less than 30h of data and we try to predict over 2 weeks of data.
